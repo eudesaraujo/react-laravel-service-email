@@ -146,3 +146,15 @@
 2021-06-14 16:35:00,267 INFO stopped: laravel-worker_00 (terminated by SIGTERM)
 2021-06-14 16:35:00,299 INFO stopped: laravel-worker_01 (terminated by SIGTERM)
 2021-06-14 16:35:00,337 INFO stopped: laravel-worker_02 (terminated by SIGTERM)
+2021-06-14 16:46:40,558 INFO supervisord started with pid 1
+2021-06-14 16:46:41,626 INFO spawned: 'laravel-worker_00' with pid 10
+2021-06-14 16:46:41,860 INFO spawned: 'laravel-worker_01' with pid 11
+2021-06-14 16:46:41,921 INFO spawned: 'laravel-worker_02' with pid 12
+2021-06-14 16:46:42,986 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2021-06-14 16:46:43,006 INFO success: laravel-worker_01 entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2021-06-14 16:46:43,029 INFO success: laravel-worker_02 entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2021-06-14 16:56:40,525 WARN received SIGTERM indicating exit request
+2021-06-14 16:56:40,546 INFO waiting for laravel-worker_00, laravel-worker_01, laravel-worker_02 to die
+2021-06-14 16:56:40,588 INFO stopped: laravel-worker_00 (terminated by SIGTERM)
+2021-06-14 16:56:40,595 INFO stopped: laravel-worker_01 (terminated by SIGTERM)
+2021-06-14 16:56:40,597 INFO stopped: laravel-worker_02 (terminated by SIGTERM)

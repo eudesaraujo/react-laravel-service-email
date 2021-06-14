@@ -22,25 +22,13 @@ services:
       context: ./
       dockerfile: docker-config/php/Dockerfile
     volumes:
+      - /var/www/html/backend-service-email/vendor
       - ./backend-service-email/:/var/www/html/backend-service-email
     working_dir: /var/www/html/backend-service-email/
     command: php-fpm
     networks: 
       - app-network
 
-  # composer:
-  #   build:
-  #     context: .
-  #     dockerfile:  docker-config/composer/Dockerfile
-  #   container_name: composer
-  #   volumes:
-  #     - ./backend-service-email/:/var/www/html/backend-service-email/
-  #   working_dir: /var/www/html/backend-service-email/
-  #   depends_on:
-  #     - php_domvs
-  #   command: ['composer', 'install']
-  #   networks:
-  #     - app-network
 
   artisan_domvs:
     container_name: artisan_domvs
@@ -48,11 +36,10 @@ services:
       context: ./
       dockerfile: docker-config/php/Dockerfile
     volumes:
+      - /var/www/html/backend-service-email/vendor
       - ./backend-service-email/:/var/www/html/backend-service-email:delegated
     working_dir: /var/www/html/backend-service-email/
     entrypoint: ['php', 'artisan','key:generate']
-    # depends_on:
-    #   - composer
     networks: 
       - app-network
 
@@ -63,10 +50,9 @@ services:
       context: ./
       dockerfile: docker-config/queue/Dockerfile
     volumes:
+      - /var/www/html/backend-service-email/vendor
       - ./backend-service-email/:/var/www/html/backend-service-email:delegated
     working_dir: /var/www/html/backend-service-email/
-    # depends_on:
-    #   - composer
     networks: 
       - app-network
 
