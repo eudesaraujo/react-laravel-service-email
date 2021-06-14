@@ -38,7 +38,7 @@ services:
     working_dir: /var/www/html/backend-service-email/
     depends_on:
       - php_domvs
-    entrypoint: ['composer', 'install']
+    command: ['composer', 'install']
     networks:
       - app-network
 
