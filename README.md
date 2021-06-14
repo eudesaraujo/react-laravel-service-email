@@ -14,7 +14,7 @@ Acesse a pasta backend-service-email e configure o .env
 cd backend-service-email
 cp .env.example .env
 ```
-Preencha no .env os dados de smtp nas variaveis abaixo 
+Preencha no .env os dados do seu smtp nas variaveis abaixo 
 ```sh
 MAIL_MAILER=smtp
 MAIL_HOST=mailhog
