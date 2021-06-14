@@ -29,11 +29,9 @@ MAIL_FROM_NAME="${APP_NAME}"
 Com o docker já instalado execute 
 
 ```sh
-docker-compose up -d 
+docker-compose up  
 ```
 Os containers serão criados
-
-O composer será executado dentro de um container, aguarda o terminio do download das dependencias. Para acompanhar o andamento acesse o dashboard do docker.
 
 
 Acesse a aplicação 
