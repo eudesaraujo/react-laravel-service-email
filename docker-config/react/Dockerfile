@@ -10,11 +10,11 @@ ENV REACT_APP_STORAGE_LINK=$REACT_APP_STORAGE_LINK
 
 WORKDIR /var/www/client
 # COPY ./client/npm-shrinkwrap.json /var/www/client/
-COPY ./frontend/package*.json /var/www/client/
+COPY ./client/package*.json /var/www/client/
 
 RUN npm ci 
 
-COPY ./frontend /var/www/client
+COPY ./client /var/www/client
 
 RUN npm run build 
 
