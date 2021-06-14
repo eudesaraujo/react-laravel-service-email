@@ -56,3 +56,5 @@ Fatal error: require(): Failed opening required '/var/www/html/backend-service-e
 [2021-06-14 15:54:05][BAPOEZfIOXgVzGPjWjUImFJKLfYbjopR] Processed:  App\Jobs\SendMailJob
 [2021-06-14 15:54:45][q0lHVA2ANarlQ1rpCJXtylaQiK4y0jV3] Processing: App\Jobs\SendMailJob
 [2021-06-14 15:54:47][q0lHVA2ANarlQ1rpCJXtylaQiK4y0jV3] Processed:  App\Jobs\SendMailJob
+[2021-06-14 16:25:02][3v9Lg08TFPAIJs5Z47OHC2SRr58EPYNi] Processing: App\Jobs\SendMailJob
+[2021-06-14 16:25:08][3v9Lg08TFPAIJs5Z47OHC2SRr58EPYNi] Processed:  App\Jobs\SendMailJob

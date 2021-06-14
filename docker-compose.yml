@@ -48,7 +48,7 @@ services:
       context: ./
       dockerfile: docker-config/php/Dockerfile
     volumes:
-      - ./backend-service-email/:/var/www/html/backend-service-email
+      - ./backend-service-email/:/var/www/html/backend-service-email:delegated
     working_dir: /var/www/html/backend-service-email/
     entrypoint: ['php', 'artisan','key:generate']
     depends_on:
@@ -63,7 +63,7 @@ services:
       context: ./
       dockerfile: docker-config/queue/Dockerfile
     volumes:
-      - ./backend-service-email/:/var/www/html/backend-service-email/
+      - ./backend-service-email/:/var/www/html/backend-service-email:delegated
     working_dir: /var/www/html/backend-service-email/
     depends_on:
       - composer
