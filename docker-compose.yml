@@ -1,0 +1,79 @@
+version: "3.3"
+
+services:
+  
+  nginx_domvs:
+    container_name: nginx_domvs
+    build: docker-config/nginx
+    tty: true
+    links:
+      - php_domvs
+    ports:
+      - "8002:80"
+    networks: 
+      - app-network
+    volumes:
+      - ./:/var/www/html
+  
+  php_domvs:
+    container_name: php_service-email
+    stop_signal: SIGTERM
+    build: 
+      context: ./
+      dockerfile: docker-config/php/Dockerfile
+    volumes:
+      - ./backend-service-email/:/var/www/html/backend-service-email:delegated
+    working_dir: /var/www/html/backend-service-email/
+    command: php-fpm
+    networks: 
+      - app-network
+
+  composer:
+    build:
+      context: .
+      dockerfile:  docker-config/composer/Dockerfile
+    container_name: composer
+    volumes:
+      - ./backend-service-email/:/var/www/html/backend-service-email/
+    working_dir: /var/www/html/backend-service-email/
+    depends_on:
+      - php_domvs
+    entrypoint: ['composer', 'install']
+    networks:
+      - app-network
+
+  queue_domvs:
+    restart: always
+    container_name: queue_domvs
+    build: 
+      context: ./
+      dockerfile: docker-config/queue/Dockerfile
+    volumes:
+      - ./backend-service-email/:/var/www/html/backend-service-email/
+    working_dir: /var/www/html/backend-service-email/
+    networks: 
+      - app-network
+
+  redis_domvs:
+    image: redis:alpine
+    container_name: redis_domvs
+    restart: unless-stopped
+    ports:
+      - 6379:6379
+    networks:
+      - app-network
+
+  frontend_domvs:
+    build:
+      context: .
+      dockerfile: docker-config/react/Dockerfile
+    image: node:alpine
+    ports:
+      - "8001:80"
+    container_name: frontend_domvs
+    restart: unless-stopped
+
+
+networks:
+  app-network:
+    driver: bridge

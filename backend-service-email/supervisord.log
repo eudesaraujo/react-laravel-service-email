@@ -1,0 +1,83 @@
+2021-06-14 13:36:41,352 INFO daemonizing the supervisord process
+2021-06-14 13:36:44,398 INFO daemonizing the supervisord process
+2021-06-14 13:36:53,853 INFO daemonizing the supervisord process
+2021-06-14 13:36:58,473 INFO daemonizing the supervisord process
+2021-06-14 13:38:28,780 INFO daemonizing the supervisord process
+2021-06-14 13:38:31,105 INFO daemonizing the supervisord process
+2021-06-14 13:38:33,222 INFO daemonizing the supervisord process
+2021-06-14 13:38:36,890 INFO daemonizing the supervisord process
+2021-06-14 13:38:44,747 INFO daemonizing the supervisord process
+2021-06-14 13:38:52,055 INFO daemonizing the supervisord process
+2021-06-14 13:39:07,863 INFO daemonizing the supervisord process
+2021-06-14 13:40:04,018 INFO daemonizing the supervisord process
+2021-06-14 13:40:11,902 INFO daemonizing the supervisord process
+2021-06-14 13:40:21,547 INFO daemonizing the supervisord process
+2021-06-14 13:40:27,594 INFO daemonizing the supervisord process
+2021-06-14 13:40:35,034 INFO daemonizing the supervisord process
+2021-06-14 13:40:41,395 INFO daemonizing the supervisord process
+2021-06-14 13:40:50,337 INFO daemonizing the supervisord process
+2021-06-14 13:41:04,029 INFO daemonizing the supervisord process
+2021-06-14 13:41:30,758 INFO daemonizing the supervisord process
+2021-06-14 13:42:23,702 INFO daemonizing the supervisord process
+2021-06-14 13:43:22,163 INFO daemonizing the supervisord process
+2021-06-14 13:43:26,443 INFO daemonizing the supervisord process
+2021-06-14 13:43:28,088 INFO daemonizing the supervisord process
+2021-06-14 13:43:38,359 INFO daemonizing the supervisord process
+2021-06-14 13:43:48,765 INFO daemonizing the supervisord process
+2021-06-14 13:44:04,168 INFO daemonizing the supervisord process
+2021-06-14 13:44:31,966 INFO daemonizing the supervisord process
+2021-06-14 13:46:26,662 INFO supervisord started with pid 1
+2021-06-14 13:46:27,674 INFO spawned: 'laravel-worker_00' with pid 9
+2021-06-14 13:46:27,695 INFO spawned: 'laravel-worker_01' with pid 10
+2021-06-14 13:46:27,714 INFO spawned: 'laravel-worker_02' with pid 11
+2021-06-14 13:46:28,722 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-14 13:46:28,727 INFO success: laravel-worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-14 13:46:28,733 INFO success: laravel-worker_02 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-14 14:15:41,278 WARN received SIGTERM indicating exit request
+2021-06-14 14:15:41,502 INFO waiting for laravel-worker_00, laravel-worker_01, laravel-worker_02 to die
+2021-06-14 14:15:42,406 INFO stopped: laravel-worker_02 (terminated by SIGTERM)
+2021-06-14 14:15:42,445 INFO stopped: laravel-worker_00 (terminated by SIGTERM)
+2021-06-14 14:15:42,505 INFO stopped: laravel-worker_01 (terminated by SIGTERM)
+2021-06-14 14:15:47,625 INFO supervisord started with pid 1
+2021-06-14 14:15:48,646 INFO spawned: 'laravel-worker_00' with pid 10
+2021-06-14 14:15:48,698 INFO spawned: 'laravel-worker_01' with pid 11
+2021-06-14 14:15:48,715 INFO spawned: 'laravel-worker_02' with pid 12
+2021-06-14 14:15:49,729 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-14 14:15:49,735 INFO success: laravel-worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-14 14:15:49,746 INFO success: laravel-worker_02 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-14 14:20:38,039 WARN received SIGTERM indicating exit request
+2021-06-14 14:20:38,144 INFO waiting for laravel-worker_00, laravel-worker_01, laravel-worker_02 to die
+2021-06-14 14:20:38,311 INFO stopped: laravel-worker_00 (terminated by SIGTERM)
+2021-06-14 14:20:39,595 INFO stopped: laravel-worker_01 (terminated by SIGTERM)
+2021-06-14 14:20:39,598 INFO stopped: laravel-worker_02 (terminated by SIGTERM)
+2021-06-14 14:20:45,299 INFO supervisord started with pid 1
+2021-06-14 14:20:46,298 INFO spawned: 'laravel-worker_00' with pid 9
+2021-06-14 14:20:46,317 INFO spawned: 'laravel-worker_01' with pid 10
+2021-06-14 14:20:46,336 INFO spawned: 'laravel-worker_02' with pid 11
+2021-06-14 14:20:47,347 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-14 14:20:47,350 INFO success: laravel-worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-14 14:20:47,360 INFO success: laravel-worker_02 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-14 14:29:36,232 WARN received SIGTERM indicating exit request
+2021-06-14 14:29:36,367 INFO waiting for laravel-worker_00, laravel-worker_01, laravel-worker_02 to die
+2021-06-14 14:29:36,698 INFO stopped: laravel-worker_00 (terminated by SIGTERM)
+2021-06-14 14:29:36,730 INFO stopped: laravel-worker_01 (terminated by SIGTERM)
+2021-06-14 14:29:36,733 INFO stopped: laravel-worker_02 (terminated by SIGTERM)
+2021-06-14 14:29:43,287 INFO supervisord started with pid 1
+2021-06-14 14:29:44,302 INFO spawned: 'laravel-worker_00' with pid 9
+2021-06-14 14:29:44,315 INFO spawned: 'laravel-worker_01' with pid 10
+2021-06-14 14:29:44,353 INFO spawned: 'laravel-worker_02' with pid 11
+2021-06-14 14:29:45,325 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-14 14:29:45,328 INFO success: laravel-worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-14 14:29:46,331 INFO success: laravel-worker_02 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-14 14:32:21,430 WARN received SIGTERM indicating exit request
+2021-06-14 14:32:21,483 INFO waiting for laravel-worker_00, laravel-worker_01, laravel-worker_02 to die
+2021-06-14 14:32:21,539 INFO stopped: laravel-worker_02 (terminated by SIGTERM)
+2021-06-14 14:32:21,559 INFO stopped: laravel-worker_01 (terminated by SIGTERM)
+2021-06-14 14:32:21,562 INFO stopped: laravel-worker_00 (terminated by SIGTERM)
+2021-06-14 14:32:27,474 INFO supervisord started with pid 1
+2021-06-14 14:32:28,491 INFO spawned: 'laravel-worker_00' with pid 10
+2021-06-14 14:32:28,508 INFO spawned: 'laravel-worker_01' with pid 11
+2021-06-14 14:32:28,518 INFO spawned: 'laravel-worker_02' with pid 12
+2021-06-14 14:32:29,530 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-14 14:32:29,543 INFO success: laravel-worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-14 14:32:29,549 INFO success: laravel-worker_02 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
