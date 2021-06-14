@@ -2,3 +2,57 @@
 [2021-06-14 13:47:14][9soMDCdtuErIPHcEc6yO3ZiHreQQIRH4] Processed:  App\Jobs\SendMailJob
 [2021-06-14 14:21:46][YLj1Xoiu7GHdEiixi5fBQY3L738xKBfT] Processing: App\Jobs\SendMailJob
 [2021-06-14 14:21:53][YLj1Xoiu7GHdEiixi5fBQY3L738xKBfT] Processed:  App\Jobs\SendMailJob
+
+Warning: require(/var/www/html/backend-service-email/vendor/autoload.php): failed to open stream: No such file or directory in /var/www/html/backend-service-email/artisan on line 18
+
+Fatal error: require(): Failed opening required '/var/www/html/backend-service-email/vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/html/backend-service-email/artisan on line 18
+
+Warning: require(/var/www/html/backend-service-email/vendor/autoload.php): failed to open stream: No such file or directory in /var/www/html/backend-service-email/artisan on line 18
+
+Fatal error: require(): Failed opening required '/var/www/html/backend-service-email/vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/html/backend-service-email/artisan on line 18
+
+Warning: require(/var/www/html/backend-service-email/vendor/autoload.php): failed to open stream: No such file or directory in /var/www/html/backend-service-email/artisan on line 18
+
+Fatal error: require(): Failed opening required '/var/www/html/backend-service-email/vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/html/backend-service-email/artisan on line 18
+
+Warning: require(/var/www/html/backend-service-email/vendor/autoload.php): failed to open stream: No such file or directory in /var/www/html/backend-service-email/artisan on line 18
+
+Fatal error: require(): Failed opening required '/var/www/html/backend-service-email/vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/html/backend-service-email/artisan on line 18
+
+Warning: require(/var/www/html/backend-service-email/vendor/autoload.php): failed to open stream: No such file or directory in /var/www/html/backend-service-email/artisan on line 18
+
+Fatal error: require(): Failed opening required '/var/www/html/backend-service-email/vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/html/backend-service-email/artisan on line 18
+
+Warning: require(/var/www/html/backend-service-email/vendor/autoload.php): failed to open stream: No such file or directory in /var/www/html/backend-service-email/artisan on line 18
+
+Fatal error: require(): Failed opening required '/var/www/html/backend-service-email/vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/html/backend-service-email/artisan on line 18
+
+Warning: require(/var/www/html/backend-service-email/vendor/autoload.php): failed to open stream: No such file or directory in /var/www/html/backend-service-email/artisan on line 18
+
+Fatal error: require(): Failed opening required '/var/www/html/backend-service-email/vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/html/backend-service-email/artisan on line 18
+
+Warning: require(/var/www/html/backend-service-email/vendor/autoload.php): failed to open stream: No such file or directory in /var/www/html/backend-service-email/artisan on line 18
+
+Fatal error: require(): Failed opening required '/var/www/html/backend-service-email/vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/html/backend-service-email/artisan on line 18
+
+Warning: require(/var/www/html/backend-service-email/vendor/autoload.php): failed to open stream: No such file or directory in /var/www/html/backend-service-email/artisan on line 18
+
+Fatal error: require(): Failed opening required '/var/www/html/backend-service-email/vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/html/backend-service-email/artisan on line 18
+
+Warning: require(/var/www/html/backend-service-email/vendor/autoload.php): failed to open stream: No such file or directory in /var/www/html/backend-service-email/artisan on line 18
+
+Fatal error: require(): Failed opening required '/var/www/html/backend-service-email/vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/html/backend-service-email/artisan on line 18
+
+Warning: require(/var/www/html/backend-service-email/vendor/autoload.php): failed to open stream: No such file or directory in /var/www/html/backend-service-email/artisan on line 18
+
+Fatal error: require(): Failed opening required '/var/www/html/backend-service-email/vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/html/backend-service-email/artisan on line 18
+
+Warning: require(/var/www/html/backend-service-email/vendor/autoload.php): failed to open stream: No such file or directory in /var/www/html/backend-service-email/artisan on line 18
+
+Fatal error: require(): Failed opening required '/var/www/html/backend-service-email/vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/html/backend-service-email/artisan on line 18
+[2021-06-14 15:53:53][BAPOEZfIOXgVzGPjWjUImFJKLfYbjopR] Processing: App\Jobs\SendMailJob
+[2021-06-14 15:53:53][NgxKaY9f7T08Ujtu3HvAxd5VNGPRAL67] Processing: App\Jobs\SendMailJob
+[2021-06-14 15:54:05][NgxKaY9f7T08Ujtu3HvAxd5VNGPRAL67] Processed:  App\Jobs\SendMailJob
+[2021-06-14 15:54:05][BAPOEZfIOXgVzGPjWjUImFJKLfYbjopR] Processed:  App\Jobs\SendMailJob
+[2021-06-14 15:54:45][q0lHVA2ANarlQ1rpCJXtylaQiK4y0jV3] Processing: App\Jobs\SendMailJob
+[2021-06-14 15:54:47][q0lHVA2ANarlQ1rpCJXtylaQiK4y0jV3] Processed:  App\Jobs\SendMailJob

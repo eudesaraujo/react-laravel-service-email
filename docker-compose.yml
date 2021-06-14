@@ -42,6 +42,18 @@ services:
     networks:
       - app-network
 
+  artisan_domvs:
+    container_name: artisan_domvs
+    build: 
+      context: ./
+      dockerfile: docker-config/php/Dockerfile
+    volumes:
+      - ./backend-service-email/:/var/www/html/backend-service-email
+    working_dir: /var/www/html/backend-service-email/
+    entrypoint: ['php', 'artisan','key:generate']
+    networks: 
+      - app-network
+
   queue_domvs:
     restart: always
     container_name: queue_domvs

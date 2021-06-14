@@ -81,3 +81,39 @@
 2021-06-14 14:32:29,530 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
 2021-06-14 14:32:29,543 INFO success: laravel-worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
 2021-06-14 14:32:29,549 INFO success: laravel-worker_02 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-14 15:22:13,199 INFO supervisord started with pid 1
+2021-06-14 15:22:14,215 INFO spawned: 'laravel-worker_00' with pid 9
+2021-06-14 15:22:14,221 INFO spawned: 'laravel-worker_01' with pid 10
+2021-06-14 15:22:14,228 INFO spawned: 'laravel-worker_02' with pid 11
+2021-06-14 15:22:14,676 INFO exited: laravel-worker_00 (exit status 255; not expected)
+2021-06-14 15:22:14,679 INFO exited: laravel-worker_01 (exit status 255; not expected)
+2021-06-14 15:22:14,682 INFO exited: laravel-worker_02 (exit status 255; not expected)
+2021-06-14 15:22:15,703 INFO spawned: 'laravel-worker_00' with pid 12
+2021-06-14 15:22:15,720 INFO spawned: 'laravel-worker_01' with pid 13
+2021-06-14 15:22:15,769 INFO spawned: 'laravel-worker_02' with pid 14
+2021-06-14 15:22:15,844 INFO exited: laravel-worker_00 (exit status 255; not expected)
+2021-06-14 15:22:15,846 INFO exited: laravel-worker_01 (exit status 255; not expected)
+2021-06-14 15:22:15,886 INFO exited: laravel-worker_02 (exit status 255; not expected)
+2021-06-14 15:22:17,894 INFO spawned: 'laravel-worker_00' with pid 15
+2021-06-14 15:22:17,904 INFO spawned: 'laravel-worker_01' with pid 16
+2021-06-14 15:22:17,912 INFO spawned: 'laravel-worker_02' with pid 17
+2021-06-14 15:22:17,943 INFO exited: laravel-worker_00 (exit status 255; not expected)
+2021-06-14 15:22:17,970 INFO exited: laravel-worker_01 (exit status 255; not expected)
+2021-06-14 15:22:17,987 INFO exited: laravel-worker_02 (exit status 255; not expected)
+2021-06-14 15:22:20,995 INFO spawned: 'laravel-worker_00' with pid 18
+2021-06-14 15:22:21,000 INFO spawned: 'laravel-worker_01' with pid 19
+2021-06-14 15:22:21,005 INFO spawned: 'laravel-worker_02' with pid 20
+2021-06-14 15:22:21,049 INFO exited: laravel-worker_00 (exit status 255; not expected)
+2021-06-14 15:22:21,067 INFO gave up: laravel-worker_00 entered FATAL state, too many start retries too quickly
+2021-06-14 15:22:21,075 INFO exited: laravel-worker_01 (exit status 255; not expected)
+2021-06-14 15:22:21,084 INFO gave up: laravel-worker_01 entered FATAL state, too many start retries too quickly
+2021-06-14 15:22:21,085 INFO exited: laravel-worker_02 (exit status 255; not expected)
+2021-06-14 15:22:21,087 INFO gave up: laravel-worker_02 entered FATAL state, too many start retries too quickly
+2021-06-14 15:53:18,379 WARN received SIGTERM indicating exit request
+2021-06-14 15:53:29,354 INFO supervisord started with pid 1
+2021-06-14 15:53:30,401 INFO spawned: 'laravel-worker_00' with pid 10
+2021-06-14 15:53:30,434 INFO spawned: 'laravel-worker_01' with pid 11
+2021-06-14 15:53:30,500 INFO spawned: 'laravel-worker_02' with pid 12
+2021-06-14 15:53:31,526 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2021-06-14 15:53:31,534 INFO success: laravel-worker_01 entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2021-06-14 15:53:31,563 INFO success: laravel-worker_02 entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
